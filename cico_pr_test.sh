@@ -2,4 +2,4 @@
 
 set -ex
 
-jenkins-jobs test minishift-ci-index.yaml
+jenkins-jobs test minishift-ci-index.yaml > /dev/null
